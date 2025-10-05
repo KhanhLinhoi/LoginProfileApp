@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background_116"
+    android:padding="24dp">
+
+    <!-- Logo hoặc Icon -->
+    <ImageView
+        android:id="@+id/imgLogo_116"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@android:drawable/ic_lock_idle_lock"
+        android:tint="@color/pink_vibrant_116"
+        android:contentDescription="Logo"/>
+
+    <TextView
+        android:id="@+id/tvTitle_116"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME BACK"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imgLogo_116"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/text_dark_116"/>
+
+    <TextView
+        android:id="@+id/tvSubtitle_116"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login to continue"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvTitle_116"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/pink_vibrant_116"/>
+
+    <EditText
+        android:id="@+id/edtUsername_116"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSubtitle_116"
+        android:layout_marginTop="40dp"
+        android:hint="Username"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:background="@drawable/edittext_border_116"
+        android:inputType="text"
+        android:textColor="@color/text_dark_116"
+        android:textColorHint="#999999"/>
+
+    <EditText
+        android:id="@+id/edtPassword_116"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtUsername_116"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:background="@drawable/edittext_border_116"
+        android:inputType="textPassword"
+        android:textColor="@color/text_dark_116"
+        android:textColorHint="#999999"/>
+
+    <Button
+        android:id="@+id/btnLogin_116"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtPassword_116"
+        android:layout_marginTop="40dp"
+        android:text="LOGIN"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background_116"
+        android:padding="16dp"/>
+
+</RelativeLayout>
