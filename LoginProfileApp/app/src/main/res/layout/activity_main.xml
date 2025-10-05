@@ -8,12 +8,12 @@
     <!-- Logo hoặc Icon -->
     <ImageView
         android:id="@+id/imgLogo_116"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
-        android:src="@android:drawable/ic_lock_idle_lock"
-        android:tint="@color/pink_vibrant_116"
+        android:src="@drawable/hoa_116"
+        android:scaleType="centerCrop"
         android:contentDescription="Logo"/>
 
     <TextView
